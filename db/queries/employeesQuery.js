@@ -1,3 +1,7 @@
+import db from "#db/client";
+
+
+
 /** @returns the employee created according to the provided details
  * I had claude explain this to me because I just was not understanding and I think its because I just was looking at it the wrong way. I did so many years of retail that I see $ and I think money haha. the value placeholders are for the values incoming from the async function. SQL wont take in those values straight so we use a placeholder instead $1 value one $ value two and so forth. We are using the values coming in to insert a new record into the table. the return creates the row and the id. the await db querty line is how the array maps to the $1 $2 $3 values. the const row line returns that object. we are destructuring it to get the new employee.
  */

@@ -1,6 +1,6 @@
 import db from "#db/client";
 import { faker } from "@faker-js/faker";
-import { createEmployee } from "#db/queries/employees";
+import { createEmployee } from "#db/queries/employeesQuery";
 
 
 
